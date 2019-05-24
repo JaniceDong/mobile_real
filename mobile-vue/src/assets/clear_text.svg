@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>删除输入文字</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-57.000000, -282.000000)" fill="#BBBBBB">
+            <path d="M68.9999848,306 C62.3730031,306 57,300.626996 57,293.999696 C57,287.372396 62.3729119,282 68.9999848,282 C75.6278181,282 81,287.372183 81,293.999696 C81,300.627118 75.6278181,306 68.9999848,306 Z M75.3638034,288.696287 L74.3030301,287.635362 L68.9999848,292.938771 L63.6967266,287.635484 L62.6353449,288.696409 L67.9386336,293.999818 L62.6353449,299.303105 L63.6967266,300.363908 L68.9999848,295.060651 L74.3030301,300.363908 L75.3638034,299.303105 L70.0605452,293.999818 L75.3638034,288.696287 Z" id="删除输入文字"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>REALMAX</title>
+    <link rel="stylesheet" href="./static/css/reset.css" type="text/css">
+    
+    <!-- <script src="https://cdn.bootcss.com/vConsole/3.2.0/vconsole.min.js"></script>
+    <script type="text/javascript">
+    var Con = new  VConsole();
+    </script> -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script type='text/javascript'>
+    /*! Normalized address bar hiding for iOS & Android (c) @scottjehl MIT License */
+    (function( win ){
+      var doc = win.document;
+      // If there's a hash, or addEventListener is undefined, stop here
+      if(!win.navigator.standalone && !location.hash && win.addEventListener ){
+
+        //scroll to 1
+        win.scrollTo( 0, 1 );
+        var scrollTop = 1,
+        getScrollTop = function(){
+          return win.pageYOffset || doc.compatMode === "CSS1Compat" && doc.documentElement.scrollTop || doc.body.scrollTop || 0;
+        },
+
+        //reset to 0 on bodyready, if needed
+        bodycheck = setInterval(function(){
+          if( doc.body ){
+          clearInterval( bodycheck );
+          scrollTop = getScrollTop();
+          win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+          }
+        }, 15 );
+
+        win.addEventListener( "load", function(){
+          setTimeout(function(){
+          //at load, if user hasn't scrolled more than 20 or so...
+            if( getScrollTop() < 20 ){
+            //reset to hide addr bar at onload
+              win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+            }
+          }, 0);
+        }, false );
+      }
+    })( this );
+  </script>
+  </body>
+</html>

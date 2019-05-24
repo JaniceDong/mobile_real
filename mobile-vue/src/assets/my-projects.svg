@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>我的页面-工程</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-1487.000000, -159.000000)">
+            <g id="我的页面-工程" transform="translate(1484.000000, 156.000000)">
+                <rect id="bounds" x="0" y="0" width="44" height="44"></rect>
+                <path d="M10,16 C13.3137085,16 16,13.3137085 16,10 C16,6.6862915 13.3137085,4 10,4 C6.6862915,4 4,6.6862915 4,10 C4,13.3137085 6.6862915,16 10,16 Z M34,16 C37.3137085,16 40,13.3137085 40,10 C40,6.6862915 37.3137085,4 34,4 C30.6862915,4 28,6.6862915 28,10 C28,13.3137085 30.6862915,16 34,16 Z M10,40 C13.3137085,40 16,37.3137085 16,34 C16,30.6862915 13.3137085,28 10,28 C6.6862915,28 4,30.6862915 4,34 C4,37.3137085 6.6862915,40 10,40 Z M34,40 C37.3137085,40 40,37.3137085 40,34 C40,30.6862915 37.3137085,28 34,28 C30.6862915,28 28,30.6862915 28,34 C28,37.3137085 30.6862915,40 34,40 Z" id="shape" stroke="#FFFFFF" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

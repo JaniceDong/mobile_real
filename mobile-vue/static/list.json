@@ -1,0 +1,13 @@
+{
+	"imgs":{
+		"img1": "../static/imgs/1.png",
+		"img2": "../static/imgs/2.png",
+		"img3": "../static/imgs/3.png",
+		"img4": "../static/imgs/4.png",
+		"img5": "../static/imgs/5.png",
+		"img6": "../static/imgs/6.png",
+		"img7": "../static/imgs/7.png",
+		"img8": "../static/imgs/8.png"
+
+	}
+}

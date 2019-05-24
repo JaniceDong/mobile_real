@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-759.000000, -356.000000)">
+            <g id="logo" transform="translate(760.000000, 357.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" stroke="#E3E3E3" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="pic" mask="url(#mask-2)">
+                    <g transform="translate(6.000000, 7.000000)" id="Rectangle-3">
+                        <rect fill="#8F00FF" x="0" y="6" width="3" height="9"></rect>
+                        <rect fill="#A140FF" x="15" y="3" width="3" height="12"></rect>
+                        <rect fill="#4800AF" x="0" y="3" width="3" height="3"></rect>
+                        <rect fill="#A140FF" x="3" y="0" width="3" height="3"></rect>
+                        <rect fill="#8F00FF" x="3" y="12" width="3" height="3"></rect>
+                        <polygon fill="#8F00FF" points="6 6.6 9 9.52609863 12 6.6 12 15 9 11.9126953 6 15"></polygon>
+                        <rect fill="#A140FF" x="12" y="12" width="6" height="3"></rect>
+                        <rect fill="#A140FF" x="12" y="0" width="6" height="3"></rect>
+                        <polygon fill="#4800AF" points="6 0 9 3 12 0 12 3 8.95766602 6 6 3"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

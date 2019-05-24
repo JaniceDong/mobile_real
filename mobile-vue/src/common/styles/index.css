@@ -1,0 +1,75 @@
+.border_bottom-1px{
+	position: relative;
+}
+.border_bottom-1px:after{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 5px;
+	transform: scale(1,0.2);
+	background: #E3E3E3;
+	content: "";
+}
+.border_bottom-1px.focus:after{
+	background: #9013FE;
+	z-index: 1;
+}
+.border_bottom-1px.focus .clearText{
+	position: absolute;
+	right: 1.1rem;
+    top: 0;
+    width: 0.48rem;
+    height: 100%;
+    background: url(../../assets/clear_text.svg) no-repeat center center;
+    border-radius: 50%;
+    background-size: 0.24rem 0.24rem;
+}
+.border_bottom-1px.focus .eye{
+	position: absolute;
+    right: 0.572rem;
+    top: 0;
+    width: 0.4rem;
+    height: 100%;
+    background: url(../../assets/pwd_hide.svg) no-repeat center center;
+    border-radius: 50%;
+    background-size: 0.28rem 0.2rem;
+}
+.border_bottom-1px.focus .show{
+	width: .4rem;
+    height: 100%;
+	background: url(../../assets/pwd_show.svg) no-repeat center center;
+	background-size: .28rem .2rem;
+}
+
+.border_top-1px{
+	position: relative;
+}
+.border_top-1px:before{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 5px;
+	transform: scale(1,0.2);
+	background: #E3E3E3;
+	content: "";
+	z-index: 1;
+}
+
+
+.border-1px{
+	position: relative;
+}
+.border-1px:before{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	border: 1px solid #E3E3E3;
+	content: "";
+	z-index: 1;
+}
+.min-height{
+	min-height: calc(100% - 112px);
+}

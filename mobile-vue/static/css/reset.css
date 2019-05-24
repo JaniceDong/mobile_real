@@ -1,0 +1,133 @@
+
+*{
+	box-sizing: border-box;
+}
+/* reset.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, centers,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul ,li{
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none;
+}
+a:visited{
+	color: #000000;
+}
+input{
+	outline: none;
+	caret-color: #9013FE;
+}
+input::-webkit-input-placeholder{
+   color: #9B9B9B;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color: #9B9B9B;;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color: #9B9B9B;;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color: #9B9B9B;;
+}
+/*  滚动条整体部分，其中的属性有width,height,background,border（就和一个块级元素一样）等。 */
+::webkit-scrollbar{
+	display: none;
+	} 
+
+/*  滚动条两端的按钮。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。 */  
+::webkit-scrollbar-button{
+	
+	} 
+ /*  外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。 */
+::webkit-scrollbar-track{
+	
+	} 
+ /*   内层轨道，滚动条中间部分（除去）。 */	
+::webkit-scrollbar-track-piece{
+	
+	}
+/*   滚动条里面可以拖动的那部分 */
+::webkit-scrollbar-thumb {
+	
+	} 
+ /*   边角 */
+::webkit-scrollbar-corner{
+	
+	} 
+ /* 定义右下角拖动块的样式 */
+::webkit-resizer{
+	
+	} 
+input[type=search]::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+input[type="submit"],
+ input[type="reset"],
+ input[type="button"],
+ button {
+  -webkit-appearance: none;
+  outline: none 0;
+   }
+.scroller .hasCover li{
+	position: relative;
+	display: inline-block;
+	width: 3.34rem;
+	margin: .16rem;
+	text-align: left;
+	border: 1px solid #D8D8D8;
+	float: none !important;
+}
+ul.hasCover{
+	overflow-y: hidden;
+}
+.hasCover p{
+	font-family: PingFangSC-Regular;
+    font-size: .26rem;
+    color: #9B9B9B;
+    text-align: center;
+    margin-top: 2.3rem;
+}

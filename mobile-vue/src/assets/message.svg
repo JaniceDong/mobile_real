@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="44px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>消息</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 44 0 44 44 0 44"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12-我的-" transform="translate(-219.000000, -918.000000)">
+            <g id="消息" transform="translate(216.000000, 918.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M4.91111111,34.7549312 L4.91111111,35.5383684 L41.0444444,35.5383684 L41.0444444,34.7549312 L36.6224884,30.3561779 L36.6224884,18.7085801 C36.6224884,12.5624586 32.1416034,7.20199974 25.9976782,5.78047772 L25.2230937,5.60126185 L25.2230937,3.39247028 C25.2230937,2.19559881 24.5724501,1.27375885 23.5661302,1.06833375 C22.0310346,0.717072024 20.7324619,1.80084636 20.7324619,3.35319789 L20.7324619,5.6453362 L19.952227,5.82110157 C13.818379,7.20288806 9.33306716,12.5578513 9.33306716,18.7085801 L9.33306716,30.3561779 L4.91111111,34.7549312 Z" id="Fill-1" stroke="#FFFFFF" stroke-width="2" mask="url(#mask-2)"></path>
+                <path d="M26.2901808,40.6801597 L19.6650833,40.6801597 C20.0899984,42.0449982 21.3760513,43 22.9777778,43 C24.5794132,43 25.8653242,42.0450272 26.2901808,40.6801597 Z" id="Path" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

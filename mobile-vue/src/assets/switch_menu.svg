@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="32px" viewBox="0 0 34 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>菜单切换</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-61.000000, -107.000000)">
+            <g id="菜单切换" transform="translate(58.000000, 103.000000)">
+                <rect id="Bounds" x="0" y="0" width="40" height="40"></rect>
+                <path d="M5,18 L35,18 C36.1045695,18 37,18.8954305 37,20 C37,21.1045695 36.1045695,22 35,22 L5,22 C3.8954305,22 3,21.1045695 3,20 C3,18.8954305 3.8954305,18 5,18 Z M5,32 L35,32 C36.1045695,32 37,32.8954305 37,34 C37,35.1045695 36.1045695,36 35,36 L5,36 C3.8954305,36 3,35.1045695 3,34 C3,32.8954305 3.8954305,32 5,32 Z M5,4 L35,4 C36.1045695,4 37,4.8954305 37,6 C37,7.1045695 36.1045695,8 35,8 L5,8 C3.8954305,8 3,7.1045695 3,6 C3,4.8954305 3.8954305,4 5,4 Z" id="Combined-Shape" fill="#BBBBBB"></path>
+            </g>
+        </g>
+    </g>
+</svg>

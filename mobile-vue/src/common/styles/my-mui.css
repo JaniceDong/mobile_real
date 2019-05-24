@@ -1,0 +1,33 @@
+.mint-swipe-indicator{
+	width: .4rem;
+	height: 0.04rem;
+	opacity: 1;
+	margin: 0;
+	border-radius: 0;
+	background: #F0DEFF;
+}
+.mint-swipe-indicator.is-active{
+	background: #9013FE;
+}
+.detail-container .mint-swipe-indicator{
+	width: .16rem;
+	height: .16rem;
+	margin-right: .3rem;
+	opacity: 0.4;
+	background: #FFFFFF;
+	border-radius: 50%;
+}
+.detail-container .mint-swipe-indicator:last-child{
+	margin-right: 0;
+}
+.detail-container .mint-swipe-indicator.is-active{
+	opacity: 1;
+}
+.markers .mint-swipe-indicators .mint-swipe-indicator{
+  width: .44rem ;
+  height: .07rem ;
+}
+.main_body{
+	overflow: scroll;
+	-webkit-overflow-scrolling:touch
+}

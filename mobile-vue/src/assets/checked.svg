@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>勾选</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-943.000000, -388.000000)" fill="#8F00FF">
+            <path d="M946,388 L974,388 C975.656854,388 977,389.343146 977,391 L977,419 C977,420.656854 975.656854,422 974,422 L946,422 C944.343146,422 943,420.656854 943,419 L943,391 C943,389.343146 944.343146,388 946,388 Z M973.222222,398.074187 L970.551006,395.555556 L955.881996,409.418638 L949.448994,403.370225 L946.777778,405.888856 L955.910984,414.444444 L958.560246,411.936345 L958.557049,411.933531 L973.222222,398.074187 Z" id="勾选"></path>
+        </g>
+    </g>
+</svg>
