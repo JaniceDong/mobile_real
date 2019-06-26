@@ -112,14 +112,14 @@ export default {
 		            width = 640, //image resize
 		            canvas = document.createElement("canvas"),
 		            drawer = canvas.getContext("2d");
-		        img.src = this.result;
+		        img.src = this.result;//this == reader
 		        img.onload = function() {
 		            canvas.width = width;
 		            canvas.height = width * (img.height / img.width);
 		            drawer.drawImage(img, 0, 0, canvas.width, canvas.height);
-		            that.temp_avatar = canvas.toDataURL("image/jpeg");
+		            that.temp_avatar = canvas.toDataURL("image/jpeg");// to url
 		            
-		      	var temp_file = that.dataURLtoFile(that.temp_avatar,'avatar.png');
+		      	var temp_file = that.dataURLtoFile(that.temp_avatar,'avatar.png');// to file
 		      	var size = temp_file.size;
 			    if(size > 5 * 1024 * 1024){
 			    	that.oversize = true;
@@ -151,7 +151,9 @@ export default {
 	      that.$http.post(that.url + "/v2/users/upload-avatar",params,{
 	      	headers:{
 	      		token: that.$store.state.user.token,
-	      		'Content-Type': 'multipart/form-data' 
+	      		//提交file类型文件时必须设置此类型，在原生form里面enctype="multipart/form-data"
+	      		'Content-Type': 'multipart/form-data'
+
 	      	}
 	      }).then( response => {
 	      	var avatar = response.data.data.avatar;
